@@ -1,57 +1,50 @@
-name: Run Tests and Deploy Allure Report
+name: Run Playwright Tests and Publish Allure Report
 
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  test-and-deploy:
+  test:
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright/java:v1.49.0-noble
 
     steps:
-      - name: Checkout source code
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Build dependencies
-        run: mvn dependency:build-classpath -Dmdep.outputFile=cp.txt
-
-      - name: Install Playwright Browsers
+      - name: Install dependencies and Playwright browsers
         run: |
-          mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
+          mvn dependency:resolve
+          mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install-deps"
 
       - name: Run tests
         run: mvn clean test
 
       - name: Generate Allure Report
-        run: mvn allure:report
-
-      - name: Copy Allure Report to public folder
         run: |
-          mkdir -p site
-          cp -r target/site/allure-maven-plugin/* site/
+          mvn allure:report
+          mvn allure:aggregate
 
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: target/site/allure-maven-plugin
 
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy
         uses: actions/deploy-pages@v4
