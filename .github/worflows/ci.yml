@@ -1,6 +1,8 @@
 name: Run Playwright Tests and Publish Allure Report
 
 on:
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
