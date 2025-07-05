@@ -1,53 +1,57 @@
-name: web-java-playwright-cucumber
+name: Run Tests and Deploy Allure Report
 
 on:
   push:
     branches: [ main ]
   pull_request:
-      branches: [ main ]
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  test:
+  test-and-deploy:
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright/java:v1.49.0-noble
 
     steps:
-      - name: Checkout repository
+      - name: Checkout source code
         uses: actions/checkout@v3
 
-      - name: Build project dependencies classpath
+      - name: Build dependencies
         run: mvn dependency:build-classpath -Dmdep.outputFile=cp.txt
 
       - name: Install Playwright Browsers
         run: |
           mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
 
-      - name: Run Tests
-        run: mvn clean verify test
+      - name: Run tests
+        run: mvn clean test
 
-      - name: Get Allure history
-        if: always()
-        continue-on-error: true
-        uses: actions/checkout@v2
-        with:
-          ref: gh-pages
-          path: gh-pages
+      - name: Generate Allure Report
+        run: mvn allure:report
 
-      - name: Allure Report action from marketplace
-        if: always()
-        uses: simple-elf/allure-report-action@master
-        id: allure-report
-        with:
-          allure_results: ./target/allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
-          allure_history: allure-history
+      - name: Copy Allure Report to public folder
+        run: |
+          mkdir -p site
+          cp -r target/site/allure-maven-plugin/* site/
 
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
