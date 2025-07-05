@@ -22,7 +22,7 @@ public class LoginSteps {
     public void setup() {
         playwright = Playwright.create();
         browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
-                .setHeadless(false)
+                .setHeadless(true)
                 .setSlowMo(400)
         );
         page = browser.newPage();
