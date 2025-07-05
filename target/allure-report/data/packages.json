@@ -1,0 +1,81 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "features.Login_feature.Login",
+    "children" : [ {
+      "name" : "Realizar login na pagina RCremonez",
+      "uid" : "efaaf12ea87f23f4",
+      "parentUid" : "5fff2da445269d1c5ea84e6b6b53e486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689195804,
+        "stop" : 1751689210361,
+        "duration" : 14557
+      },
+      "flaky" : false,
+      "parameters" : [ "Login bem-sucedido!", "teste", "admin@teste.com" ]
+    }, {
+      "name" : "Realizar login na pagina RCremonez",
+      "uid" : "259c9e8da25f4874",
+      "parentUid" : "5fff2da445269d1c5ea84e6b6b53e486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689210394,
+        "stop" : 1751689215996,
+        "duration" : 5602
+      },
+      "flaky" : false,
+      "parameters" : [ "Preencha todos os campos.", "", "" ]
+    }, {
+      "name" : "Realizar login na pagina RCremonez",
+      "uid" : "2405ec70afc887fe",
+      "parentUid" : "5fff2da445269d1c5ea84e6b6b53e486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689216007,
+        "stop" : 1751689222155,
+        "duration" : 6148
+      },
+      "flaky" : false,
+      "parameters" : [ "Usuário inválido", "teste", "admin" ]
+    }, {
+      "name" : "Realizar login na pagina RCremonez",
+      "uid" : "8bf138ac2c0f8cf4",
+      "parentUid" : "5fff2da445269d1c5ea84e6b6b53e486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689222167,
+        "stop" : 1751689228282,
+        "duration" : 6115
+      },
+      "flaky" : false,
+      "parameters" : [ "Usuário inválido", "teste", "teste@teste.com" ]
+    }, {
+      "name" : "Realizar login na pagina RCremonez",
+      "uid" : "9adc96b3e63e12fc",
+      "parentUid" : "5fff2da445269d1c5ea84e6b6b53e486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689228290,
+        "stop" : 1751689233657,
+        "duration" : 5367
+      },
+      "flaky" : false,
+      "parameters" : [ "Usuário ou senha inválido.", "test", "admin@teste.com" ]
+    }, {
+      "name" : "Realizar login na pagina RCremonez",
+      "uid" : "c9fc12c91b7c7db0",
+      "parentUid" : "5fff2da445269d1c5ea84e6b6b53e486",
+      "status" : "failed",
+      "time" : {
+        "start" : 1751689233665,
+        "stop" : 1751689239146,
+        "duration" : 5481
+      },
+      "flaky" : false,
+      "parameters" : [ "Falha Proposital", ".", "." ]
+    } ],
+    "uid" : "features.Login_feature.Login"
+  } ]
+}

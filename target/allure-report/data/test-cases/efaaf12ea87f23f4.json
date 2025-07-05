@@ -1,0 +1,164 @@
+{
+  "uid" : "efaaf12ea87f23f4",
+  "name" : "Realizar login na pagina RCremonez",
+  "fullName" : "features/Login.feature:13",
+  "historyId" : "967a75f07a63692c978bb46d136ac27f",
+  "time" : {
+    "start" : 1751689195804,
+    "stop" : 1751689210361,
+    "duration" : 14557
+  },
+  "description" : "  Eu como usuário do sistema\n  Desejo realizar o login no sistema\n  Para realizar minhas atividades",
+  "descriptionHtml" : "<p>Eu como usuário do sistema\nDesejo realizar o login no sistema\nPara realizar minhas atividades</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "steps.LoginSteps.setup()",
+    "time" : {
+      "start" : 1751689195811,
+      "stop" : 1751689205633,
+      "duration" : 9822
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "  Eu como usuário do sistema\n  Desejo realizar o login no sistema\n  Para realizar minhas atividades",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado que informo o usuario \"admin@teste.com\" e a senha \"teste\"",
+      "time" : {
+        "start" : 1751689205946,
+        "stop" : 1751689209084,
+        "duration" : 3138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Quando clico no botão entrar",
+      "time" : {
+        "start" : 1751689209084,
+        "stop" : 1751689209639,
+        "duration" : 555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Então sistema apresentará uma mensagem de \"Login bem-sucedido!\"",
+      "time" : {
+        "start" : 1751689209639,
+        "stop" : 1751689209656,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.LoginSteps.teardown()",
+    "time" : {
+      "start" : 1751689209657,
+      "stop" : 1751689210352,
+      "duration" : 695
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "228e39ef1193a329",
+      "name" : "Evidencia",
+      "source" : "228e39ef1193a329.png",
+      "type" : "image/png",
+      "size" : 161831
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-IO7JVLF"
+  }, {
+    "name" : "thread",
+    "value" : "20044@DESKTOP-IO7JVLF.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "Realizar login na pagina RCremonez"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Realizar login na pagina RCremonez"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/Login.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.Login_feature.Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mensagem",
+    "value" : "Login bem-sucedido!"
+  }, {
+    "name" : "senha",
+    "value" : "teste"
+  }, {
+    "name" : "usuario",
+    "value" : "admin@teste.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efaaf12ea87f23f4.json",
+  "parameterValues" : [ "Login bem-sucedido!", "teste", "admin@teste.com" ]
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "9adc96b3e63e12fc",
+  "name" : "Realizar login na pagina RCremonez",
+  "time" : {
+    "start" : 1751689228290,
+    "stop" : 1751689233657,
+    "duration" : 5367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2405ec70afc887fe",
+  "name" : "Realizar login na pagina RCremonez",
+  "time" : {
+    "start" : 1751689216007,
+    "stop" : 1751689222155,
+    "duration" : 6148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bf138ac2c0f8cf4",
+  "name" : "Realizar login na pagina RCremonez",
+  "time" : {
+    "start" : 1751689222167,
+    "stop" : 1751689228282,
+    "duration" : 6115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efaaf12ea87f23f4",
+  "name" : "Realizar login na pagina RCremonez",
+  "time" : {
+    "start" : 1751689195804,
+    "stop" : 1751689210361,
+    "duration" : 14557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "259c9e8da25f4874",
+  "name" : "Realizar login na pagina RCremonez",
+  "time" : {
+    "start" : 1751689210394,
+    "stop" : 1751689215996,
+    "duration" : 5602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9fc12c91b7c7db0",
+  "name" : "Realizar login na pagina RCremonez",
+  "time" : {
+    "start" : 1751689233665,
+    "stop" : 1751689239146,
+    "duration" : 5481
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

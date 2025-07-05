@@ -1,0 +1,117 @@
+{
+  "4330b34a3e8987f6151ecab9bbed91e4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9fc12c91b7c7db0",
+      "status" : "failed",
+      "statusDetails" : "Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'",
+      "time" : {
+        "start" : 1751689233665,
+        "stop" : 1751689239146,
+        "duration" : 5481
+      }
+    } ]
+  },
+  "a4a2f644bb83325cfdc4ab11fb043bbb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9adc96b3e63e12fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689228290,
+        "stop" : 1751689233657,
+        "duration" : 5367
+      }
+    } ]
+  },
+  "967a75f07a63692c978bb46d136ac27f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efaaf12ea87f23f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689195804,
+        "stop" : 1751689210361,
+        "duration" : 14557
+      }
+    } ]
+  },
+  "9d7b8efc37e57503206a60bd19a7250a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2405ec70afc887fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689216007,
+        "stop" : 1751689222155,
+        "duration" : 6148
+      }
+    } ]
+  },
+  "1b1a5e038b4b0d5b323540b64856fe34" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "259c9e8da25f4874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689210394,
+        "stop" : 1751689215996,
+        "duration" : 5602
+      }
+    } ]
+  },
+  "396d12a247266fa8308afbeb659440f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bf138ac2c0f8cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751689222167,
+        "stop" : 1751689228282,
+        "duration" : 6115
+      }
+    } ]
+  }
+}

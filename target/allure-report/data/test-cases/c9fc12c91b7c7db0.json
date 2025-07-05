@@ -1,0 +1,174 @@
+{
+  "uid" : "c9fc12c91b7c7db0",
+  "name" : "Realizar login na pagina RCremonez",
+  "fullName" : "features/Login.feature:18",
+  "historyId" : "4330b34a3e8987f6151ecab9bbed91e4",
+  "time" : {
+    "start" : 1751689233665,
+    "stop" : 1751689239146,
+    "duration" : 5481
+  },
+  "description" : "  Eu como usuário do sistema\n  Desejo realizar o login no sistema\n  Para realizar minhas atividades",
+  "descriptionHtml" : "<p>Eu como usuário do sistema\nDesejo realizar o login no sistema\nPara realizar minhas atividades</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'",
+  "statusTrace" : "java.lang.AssertionError: Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'\r\n\tat page.LoginPage.ValidaMensagem(LoginPage.java:36)\r\n\tat steps.LoginSteps.sistema_apresentara_uma_mensagem(LoginSteps.java:53)\r\n\tat ✽.sistema apresentará uma mensagem de \"Falha Proposital\"(classpath:features/Login.feature:10)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "steps.LoginSteps.setup()",
+    "time" : {
+      "start" : 1751689233665,
+      "stop" : 1751689235097,
+      "duration" : 1432
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "  Eu como usuário do sistema\n  Desejo realizar o login no sistema\n  Para realizar minhas atividades",
+    "status" : "failed",
+    "statusMessage" : "Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'",
+    "statusTrace" : "java.lang.AssertionError: Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'\r\n\tat page.LoginPage.ValidaMensagem(LoginPage.java:36)\r\n\tat steps.LoginSteps.sistema_apresentara_uma_mensagem(LoginSteps.java:53)\r\n\tat ✽.sistema apresentará uma mensagem de \"Falha Proposital\"(classpath:features/Login.feature:10)\r\n",
+    "steps" : [ {
+      "name" : "Dado que informo o usuario \".\" e a senha \".\"",
+      "time" : {
+        "start" : 1751689235099,
+        "stop" : 1751689237787,
+        "duration" : 2688
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Quando clico no botão entrar",
+      "time" : {
+        "start" : 1751689237787,
+        "stop" : 1751689238343,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Então sistema apresentará uma mensagem de \"Falha Proposital\"",
+      "time" : {
+        "start" : 1751689238343,
+        "stop" : 1751689238368,
+        "duration" : 25
+      },
+      "status" : "failed",
+      "statusMessage" : "Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'",
+      "statusTrace" : "java.lang.AssertionError: Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'\r\n\tat page.LoginPage.ValidaMensagem(LoginPage.java:36)\r\n\tat steps.LoginSteps.sistema_apresentara_uma_mensagem(LoginSteps.java:53)\r\n\tat ✽.sistema apresentará uma mensagem de \"Falha Proposital\"(classpath:features/Login.feature:10)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.LoginSteps.teardown()",
+    "time" : {
+      "start" : 1751689238369,
+      "stop" : 1751689239143,
+      "duration" : 774
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c0b714b3cb1b0ed",
+      "name" : "Evidencia",
+      "source" : "6c0b714b3cb1b0ed.png",
+      "type" : "image/png",
+      "size" : 154835
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-IO7JVLF"
+  }, {
+    "name" : "thread",
+    "value" : "20044@DESKTOP-IO7JVLF.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "Realizar login na pagina RCremonez"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Realizar login na pagina RCremonez"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/Login.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.Login_feature.Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mensagem",
+    "value" : "Falha Proposital"
+  }, {
+    "name" : "senha",
+    "value" : "."
+  }, {
+    "name" : "usuario",
+    "value" : "."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c9fc12c91b7c7db0.json",
+  "parameterValues" : [ "Falha Proposital", ".", "." ]
+}

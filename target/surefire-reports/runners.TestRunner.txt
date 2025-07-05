@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.79 s <<< FAILURE! -- in runners.TestRunner
+Exemplos.Example #1.6 -- Time elapsed: 5.502 s <<< FAILURE!
+java.lang.AssertionError: Mensagem esperada: 'Falha Proposital' Mensagem encontrada: 'Usuário inválido'
+	at page.LoginPage.ValidaMensagem(LoginPage.java:36)
+	at steps.LoginSteps.sistema_apresentara_uma_mensagem(LoginSteps.java:53)
+	at ✽.sistema apresentará uma mensagem de "Falha Proposital"(classpath:features/Login.feature:10)
+
