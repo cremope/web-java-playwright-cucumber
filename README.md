@@ -4,7 +4,7 @@ Projeto de automação de testes web utilizando Playwright e Cucumber, executand
 
 ## Dependências
 - JDK: 17
-- Apache Maven: 3.6.3
+- Apache Maven: 3.13.0
 - Playwright: 1.51.0
 - Cucumber: 7.20.1
 - JUnit: 5.11.3
