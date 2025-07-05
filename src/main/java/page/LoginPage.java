@@ -18,6 +18,7 @@ public class LoginPage {
     }
 
     public void preencherUsuario(String usuario) {
+
         page.fill(inputUsuario, usuario);
     }
 
