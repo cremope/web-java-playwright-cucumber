@@ -49,6 +49,7 @@ jobs:
           rm -rf docs
           mkdir docs
           cp -r target/site/allure-maven-plugin/* docs/
+          touch docs/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
