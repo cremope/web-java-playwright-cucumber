@@ -39,5 +39,9 @@ Apagar o Allure Report de execuções anteriores
   allure generate --clean --output target/allure-results
 ```
 
-## Relatório dos testes
-[Visualizar](https://cremope.github.io/web-java-playwright-cucumber/)
+Para visualizar o relatório de testes [Clique aqui](https://cremope.github.io/web-java-playwright-cucumber/)
+
+## ScreenShots
+<img src="https://github.com/cremope/web-java-playwright-cucumber/blob/develop/screenshots/Allure_Overview.PNG" width="400" /> 
+<img src="https://github.com/cremope/web-java-playwright-cucumber/blob/develop/screenshots/Allure_Suites_OK.PNG" width="400" />
+<img src="https://github.com/cremope/web-java-playwright-cucumber/blob/develop/screenshots/Allure_Suites_NOK.PNG" width="400" /> 
