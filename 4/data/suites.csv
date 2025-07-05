@@ -1,0 +1,19 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas atividades","2566","Realizar login na pagina RCremonez","","Sat Jul 05 06:41:51 GMT 2025","passed","Sat Jul 05 06:41:54 GMT 2025","","Login","Realizar login na pagina RCremonez",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas atividades","2366","Realizar login na pagina RCremonez","","Sat Jul 05 06:41:49 GMT 2025","passed","Sat Jul 05 06:41:51 GMT 2025","","Login","Realizar login na pagina RCremonez",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas atividades","2307","Realizar login na pagina RCremonez","","Sat Jul 05 06:41:58 GMT 2025","failed","Sat Jul 05 06:42:01 GMT 2025","","Login","Realizar login na pagina RCremonez",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas atividades","14921","Realizar login na pagina RCremonez","","Sat Jul 05 06:41:34 GMT 2025","passed","Sat Jul 05 06:41:49 GMT 2025","","Login","Realizar login na pagina RCremonez",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas atividades","2306","Realizar login na pagina RCremonez","","Sat Jul 05 06:41:54 GMT 2025","passed","Sat Jul 05 06:41:56 GMT 2025","","Login","Realizar login na pagina RCremonez",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas atividades","2314","Realizar login na pagina RCremonez","","Sat Jul 05 06:41:56 GMT 2025","passed","Sat Jul 05 06:41:58 GMT 2025","","Login","Realizar login na pagina RCremonez",""
