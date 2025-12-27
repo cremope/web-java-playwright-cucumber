@@ -1,20 +1,20 @@
 {
-  "uid" : "ebbc9f82225e3412",
+  "uid" : "42fed873e6b4a075",
   "name" : "Validar Login e Navegação",
   "fullName" : "features/ecommerce_saucedemo.feature:17",
   "historyId" : "f1b345e0ba80878d70aea99c1f9edc13",
   "time" : {
-    "start" : 1766872446971,
-    "stop" : 1766872448510,
-    "duration" : 1539
+    "start" : 1766872702864,
+    "stop" : 1766872704388,
+    "duration" : 1524
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
-    "name" : "steps.LoginSteps.initPages()",
+    "name" : "steps.CheckoutSteps.initPages()",
     "time" : {
-      "start" : 1766872447290,
-      "stop" : 1766872447290,
+      "start" : 1766872703185,
+      "stop" : 1766872703185,
       "duration" : 0
     },
     "status" : "passed",
@@ -26,10 +26,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "steps.CheckoutSteps.initPages()",
+    "name" : "steps.LoginSteps.initPages()",
     "time" : {
-      "start" : 1766872447291,
-      "stop" : 1766872447291,
+      "start" : 1766872703185,
+      "stop" : 1766872703185,
       "duration" : 0
     },
     "status" : "passed",
@@ -43,9 +43,9 @@
   }, {
     "name" : "steps.Hooks.setup()",
     "time" : {
-      "start" : 1766872446971,
-      "stop" : 1766872447290,
-      "duration" : 319
+      "start" : 1766872702864,
+      "stop" : 1766872703184,
+      "duration" : 320
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,16 +61,16 @@
     "steps" : [ {
       "name" : "Dado que estou na página de login do SauceDemo",
       "time" : {
-        "start" : 1766872447291,
-        "stop" : 1766872447740,
-        "duration" : 449
+        "start" : 1766872703185,
+        "stop" : 1766872703620,
+        "duration" : 435
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navegando para o site SauceDemo",
         "time" : {
-          "start" : 1766872447291,
-          "stop" : 1766872447291,
+          "start" : 1766872703185,
+          "stop" : 1766872703185,
           "duration" : 0
         },
         "status" : "passed",
@@ -83,9 +83,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "3faf61fb0ed91314",
+        "uid" : "b5ab42578ec1a0a3",
         "name" : "Evidencia",
-        "source" : "3faf61fb0ed91314.png",
+        "source" : "b5ab42578ec1a0a3.png",
         "type" : "image/png",
         "size" : 24545
       } ],
@@ -97,16 +97,16 @@
     }, {
       "name" : "Quando tento logar com o usuário \"\" e senha \"\"",
       "time" : {
-        "start" : 1766872447740,
-        "stop" : 1766872448324,
-        "duration" : 584
+        "start" : 1766872703620,
+        "stop" : 1766872704205,
+        "duration" : 585
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Realizando login com o usuário: ",
         "time" : {
-          "start" : 1766872447740,
-          "stop" : 1766872447740,
+          "start" : 1766872703620,
+          "stop" : 1766872703620,
           "duration" : 0
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "fdf002b2dfe6ae0b",
+        "uid" : "649d0be9fffd140e",
         "name" : "Evidencia",
-        "source" : "fdf002b2dfe6ae0b.png",
+        "source" : "649d0be9fffd140e.png",
         "type" : "image/png",
         "size" : 24545
       } ],
@@ -133,16 +133,16 @@
     }, {
       "name" : "Então devo validar o resultado esperado \"Epic sadface: Username is required\"",
       "time" : {
-        "start" : 1766872448324,
-        "stop" : 1766872448406,
-        "duration" : 82
+        "start" : 1766872704205,
+        "stop" : 1766872704286,
+        "duration" : 81
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Validando se a mensagem de erro contém: Epic sadface: Username is required",
         "time" : {
-          "start" : 1766872448324,
-          "stop" : 1766872448324,
+          "start" : 1766872704205,
+          "stop" : 1766872704205,
           "duration" : 0
         },
         "status" : "passed",
@@ -155,9 +155,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "9edf765a355bfbc",
+        "uid" : "6259a560558af8ed",
         "name" : "Evidencia",
-        "source" : "9edf765a355bfbc.png",
+        "source" : "6259a560558af8ed.png",
         "type" : "image/png",
         "size" : 29489
       } ],
@@ -177,16 +177,16 @@
   "afterStages" : [ {
     "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1766872448406,
-      "stop" : 1766872448507,
-      "duration" : 101
+      "start" : 1766872704286,
+      "stop" : 1766872704384,
+      "duration" : 98
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "6f2293b2aa452137",
+      "uid" : "8d5f6d9965761b89",
       "name" : "Evidencia_Validar Login e Navegação",
-      "source" : "6f2293b2aa452137.png",
+      "source" : "8d5f6d9965761b89.png",
       "type" : "image/png",
       "size" : 29489
     } ],
@@ -204,7 +204,7 @@
     "value" : "runnervmh13bl"
   }, {
     "name" : "thread",
-    "value" : "5636@runnervmh13bl.main(1)"
+    "value" : "5583@runnervmh13bl.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validar ecommerce SauceDemo"
@@ -250,8 +250,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ebbc9f82225e3412",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872446971,
+          "stop" : 1766872448510,
+          "duration" : 1539
+        }
+      } ]
+    },
     "tags" : [ "login" ]
   },
-  "source" : "ebbc9f82225e3412.json",
+  "source" : "42fed873e6b4a075.json",
   "parameterValues" : [ "Epic sadface: Username is required", "", "" ]
 }

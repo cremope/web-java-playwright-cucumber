@@ -1,21 +1,21 @@
 {
-  "uid" : "6e186f24ab4ccdbf",
+  "uid" : "15ee7750657a0e03",
   "name" : "Fluxo de Checkout Completo",
   "fullName" : "features/ecommerce_saucedemo.feature:20",
   "historyId" : "538b49dfdd4f0794dee36f41434d6527",
   "time" : {
-    "start" : 1766872448516,
-    "stop" : 1766872451794,
-    "duration" : 3278
+    "start" : 1766872704393,
+    "stop" : 1766872707694,
+    "duration" : 3301
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
-    "name" : "steps.Hooks.setup()",
+    "name" : "steps.LoginSteps.initPages()",
     "time" : {
-      "start" : 1766872448517,
-      "stop" : 1766872448838,
-      "duration" : 321
+      "start" : 1766872704729,
+      "stop" : 1766872704729,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -28,8 +28,8 @@
   }, {
     "name" : "steps.CheckoutSteps.initPages()",
     "time" : {
-      "start" : 1766872448839,
-      "stop" : 1766872448839,
+      "start" : 1766872704729,
+      "stop" : 1766872704729,
       "duration" : 0
     },
     "status" : "passed",
@@ -41,11 +41,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "steps.LoginSteps.initPages()",
+    "name" : "steps.Hooks.setup()",
     "time" : {
-      "start" : 1766872448838,
-      "stop" : 1766872448839,
-      "duration" : 1
+      "start" : 1766872704393,
+      "stop" : 1766872704728,
+      "duration" : 335
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,16 +61,16 @@
     "steps" : [ {
       "name" : "Dado que estou na página de login do SauceDemo",
       "time" : {
-        "start" : 1766872448839,
-        "stop" : 1766872449290,
-        "duration" : 451
+        "start" : 1766872704729,
+        "stop" : 1766872705154,
+        "duration" : 425
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navegando para o site SauceDemo",
         "time" : {
-          "start" : 1766872448839,
-          "stop" : 1766872448839,
+          "start" : 1766872704729,
+          "stop" : 1766872704729,
           "duration" : 0
         },
         "status" : "passed",
@@ -83,9 +83,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "c0a1d814796a208e",
+        "uid" : "1680a271e93910e6",
         "name" : "Evidencia",
-        "source" : "c0a1d814796a208e.png",
+        "source" : "1680a271e93910e6.png",
         "type" : "image/png",
         "size" : 24545
       } ],
@@ -97,16 +97,16 @@
     }, {
       "name" : "Quando tento logar com o usuário \"standard_user\" e senha \"secret_sauce\"",
       "time" : {
-        "start" : 1766872449291,
-        "stop" : 1766872449903,
+        "start" : 1766872705154,
+        "stop" : 1766872705766,
         "duration" : 612
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Realizando login com o usuário: standard_user",
         "time" : {
-          "start" : 1766872449291,
-          "stop" : 1766872449291,
+          "start" : 1766872705154,
+          "stop" : 1766872705154,
           "duration" : 0
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "40f61a3909dc0ddf",
+        "uid" : "ea4214c6a1f0c22e",
         "name" : "Evidencia",
-        "source" : "40f61a3909dc0ddf.png",
+        "source" : "ea4214c6a1f0c22e.png",
         "type" : "image/png",
         "size" : 23700
       } ],
@@ -133,16 +133,16 @@
     }, {
       "name" : "E adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
       "time" : {
-        "start" : 1766872449903,
-        "stop" : 1766872450217,
-        "duration" : 314
+        "start" : 1766872705766,
+        "stop" : 1766872706085,
+        "duration" : 319
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Adicionando o produto ao carrinho: Sauce Labs Backpack",
         "time" : {
-          "start" : 1766872449903,
-          "stop" : 1766872449903,
+          "start" : 1766872705767,
+          "stop" : 1766872705767,
           "duration" : 0
         },
         "status" : "passed",
@@ -155,9 +155,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "c3d5030d3f0245f5",
+        "uid" : "185fc31b526b0a88",
         "name" : "Evidencia",
-        "source" : "c3d5030d3f0245f5.png",
+        "source" : "185fc31b526b0a88.png",
         "type" : "image/png",
         "size" : 282226
       } ],
@@ -169,16 +169,16 @@
     }, {
       "name" : "E prossigo para o checkout preenchendo \"Joao\", \"Silva\" e \"12345\"",
       "time" : {
-        "start" : 1766872450217,
-        "stop" : 1766872451324,
-        "duration" : 1107
+        "start" : 1766872706085,
+        "stop" : 1766872707204,
+        "duration" : 1119
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Iniciando checkout para: Joao Silva e CEP: 12345",
         "time" : {
-          "start" : 1766872450217,
-          "stop" : 1766872450217,
+          "start" : 1766872706085,
+          "stop" : 1766872706085,
           "duration" : 0
         },
         "status" : "passed",
@@ -191,9 +191,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "dd66cf8d52b98e6f",
+        "uid" : "929e33a148990e70",
         "name" : "Evidencia",
-        "source" : "dd66cf8d52b98e6f.png",
+        "source" : "929e33a148990e70.png",
         "type" : "image/png",
         "size" : 26999
       } ],
@@ -205,16 +205,16 @@
     }, {
       "name" : "Então a compra deve ser finalizada com sucesso",
       "time" : {
-        "start" : 1766872451324,
-        "stop" : 1766872451690,
+        "start" : 1766872707204,
+        "stop" : 1766872707570,
         "duration" : 366
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Finalizando a compra no botão Finish",
         "time" : {
-          "start" : 1766872451324,
-          "stop" : 1766872451324,
+          "start" : 1766872707204,
+          "stop" : 1766872707204,
           "duration" : 0
         },
         "status" : "passed",
@@ -228,8 +228,8 @@
       }, {
         "name" : "Validando tela de agradecimento pós-compra",
         "time" : {
-          "start" : 1766872451603,
-          "stop" : 1766872451603,
+          "start" : 1766872707483,
+          "stop" : 1766872707483,
           "duration" : 0
         },
         "status" : "passed",
@@ -242,15 +242,15 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "33e65a3ad81d01f3",
+        "uid" : "9d884a20a67719aa",
         "name" : "Evidencia",
-        "source" : "33e65a3ad81d01f3.png",
+        "source" : "9d884a20a67719aa.png",
         "type" : "image/png",
         "size" : 54138
       }, {
-        "uid" : "3db9da066372c41c",
+        "uid" : "421335c792d7fff7",
         "name" : "Evidencia",
-        "source" : "3db9da066372c41c.png",
+        "source" : "421335c792d7fff7.png",
         "type" : "image/png",
         "size" : 33043
       } ],
@@ -270,16 +270,16 @@
   "afterStages" : [ {
     "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1766872451690,
-      "stop" : 1766872451793,
-      "duration" : 103
+      "start" : 1766872707570,
+      "stop" : 1766872707694,
+      "duration" : 124
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "deb574222c4f58c5",
+      "uid" : "7c7039240e11c33b",
       "name" : "Evidencia_Fluxo de Checkout Completo",
-      "source" : "deb574222c4f58c5.png",
+      "source" : "7c7039240e11c33b.png",
       "type" : "image/png",
       "size" : 33043
     } ],
@@ -297,7 +297,7 @@
     "value" : "runnervmh13bl"
   }, {
     "name" : "thread",
-    "value" : "5636@runnervmh13bl.main(1)"
+    "value" : "5583@runnervmh13bl.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validar ecommerce SauceDemo"
@@ -334,8 +334,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6e186f24ab4ccdbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872448516,
+          "stop" : 1766872451794,
+          "duration" : 3278
+        }
+      } ]
+    },
     "tags" : [ "checkout" ]
   },
-  "source" : "6e186f24ab4ccdbf.json",
+  "source" : "15ee7750657a0e03.json",
   "parameterValues" : [ ]
 }

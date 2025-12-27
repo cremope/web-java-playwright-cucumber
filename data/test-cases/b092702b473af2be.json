@@ -1,21 +1,36 @@
 {
-  "uid" : "39c6b49cc99a6e84",
+  "uid" : "b092702b473af2be",
   "name" : "Validar Login e Navegação",
   "fullName" : "features/ecommerce_saucedemo.feature:14",
   "historyId" : "800b75cdb32ddba379d6ff2287b1f282",
   "time" : {
-    "start" : 1766872440572,
-    "stop" : 1766872443802,
-    "duration" : 3230
+    "start" : 1766872696293,
+    "stop" : 1766872699740,
+    "duration" : 3447
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
+    "name" : "steps.Hooks.setup()",
+    "time" : {
+      "start" : 1766872696297,
+      "stop" : 1766872697834,
+      "duration" : 1537
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "steps.LoginSteps.initPages()",
     "time" : {
-      "start" : 1766872442159,
-      "stop" : 1766872442159,
-      "duration" : 0
+      "start" : 1766872697927,
+      "stop" : 1766872697928,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -28,24 +43,9 @@
   }, {
     "name" : "steps.CheckoutSteps.initPages()",
     "time" : {
-      "start" : 1766872442161,
-      "stop" : 1766872442161,
+      "start" : 1766872697929,
+      "stop" : 1766872697929,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "steps.Hooks.setup()",
-    "time" : {
-      "start" : 1766872440575,
-      "stop" : 1766872442074,
-      "duration" : 1499
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,17 +61,17 @@
     "steps" : [ {
       "name" : "Dado que estou na página de login do SauceDemo",
       "time" : {
-        "start" : 1766872442162,
-        "stop" : 1766872442862,
-        "duration" : 700
+        "start" : 1766872697930,
+        "stop" : 1766872698763,
+        "duration" : 833
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navegando para o site SauceDemo",
         "time" : {
-          "start" : 1766872442162,
-          "stop" : 1766872442162,
-          "duration" : 0
+          "start" : 1766872697930,
+          "stop" : 1766872697931,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
@@ -83,9 +83,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "4d9f38b644bd3c4d",
+        "uid" : "8f773a8a73efef1c",
         "name" : "Evidencia",
-        "source" : "4d9f38b644bd3c4d.png",
+        "source" : "8f773a8a73efef1c.png",
         "type" : "image/png",
         "size" : 24545
       } ],
@@ -97,16 +97,16 @@
     }, {
       "name" : "Quando tento logar com o usuário \"standard_user\" e senha \"secret_sauce\"",
       "time" : {
-        "start" : 1766872442862,
-        "stop" : 1766872443485,
-        "duration" : 623
+        "start" : 1766872698763,
+        "stop" : 1766872699400,
+        "duration" : 637
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Realizando login com o usuário: standard_user",
         "time" : {
-          "start" : 1766872442862,
-          "stop" : 1766872442862,
+          "start" : 1766872698764,
+          "stop" : 1766872698764,
           "duration" : 0
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "6509808104ff25cc",
+        "uid" : "33a3a2094eae0657",
         "name" : "Evidencia",
-        "source" : "6509808104ff25cc.png",
+        "source" : "33a3a2094eae0657.png",
         "type" : "image/png",
         "size" : 23700
       } ],
@@ -133,16 +133,16 @@
     }, {
       "name" : "Então devo validar o resultado esperado \"LOGIN_SUCESSO\"",
       "time" : {
-        "start" : 1766872443485,
-        "stop" : 1766872443629,
-        "duration" : 144
+        "start" : 1766872699400,
+        "stop" : 1766872699560,
+        "duration" : 160
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Validando se a vitrine de produtos está visível",
         "time" : {
-          "start" : 1766872443485,
-          "stop" : 1766872443485,
+          "start" : 1766872699400,
+          "stop" : 1766872699400,
           "duration" : 0
         },
         "status" : "passed",
@@ -155,9 +155,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "683654c6853c1ad5",
+        "uid" : "6ee048bdca1e149f",
         "name" : "Evidencia",
-        "source" : "683654c6853c1ad5.png",
+        "source" : "6ee048bdca1e149f.png",
         "type" : "image/png",
         "size" : 280267
       } ],
@@ -177,16 +177,16 @@
   "afterStages" : [ {
     "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1766872443629,
-      "stop" : 1766872443799,
-      "duration" : 170
+      "start" : 1766872699561,
+      "stop" : 1766872699737,
+      "duration" : 176
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c16a994a8c5a493c",
+      "uid" : "32c1fe1ac225d54b",
       "name" : "Evidencia_Validar Login e Navegação",
-      "source" : "c16a994a8c5a493c.png",
+      "source" : "32c1fe1ac225d54b.png",
       "type" : "image/png",
       "size" : 280267
     } ],
@@ -204,7 +204,7 @@
     "value" : "runnervmh13bl"
   }, {
     "name" : "thread",
-    "value" : "5636@runnervmh13bl.main(1)"
+    "value" : "5583@runnervmh13bl.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validar ecommerce SauceDemo"
@@ -250,8 +250,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "39c6b49cc99a6e84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872440572,
+          "stop" : 1766872443802,
+          "duration" : 3230
+        }
+      } ]
+    },
     "tags" : [ "login" ]
   },
-  "source" : "39c6b49cc99a6e84.json",
+  "source" : "b092702b473af2be.json",
   "parameterValues" : [ "LOGIN_SUCESSO", "secret_sauce", "standard_user" ]
 }

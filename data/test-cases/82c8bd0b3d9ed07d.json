@@ -1,35 +1,20 @@
 {
-  "uid" : "b9520d7980f92ad9",
+  "uid" : "82c8bd0b3d9ed07d",
   "name" : "Validar Login e Navegação",
   "fullName" : "features/ecommerce_saucedemo.feature:15",
   "historyId" : "17c5e6fc6cb13f8641a50cc0b050e1fa",
   "time" : {
-    "start" : 1766872443821,
-    "stop" : 1766872445391,
-    "duration" : 1570
+    "start" : 1766872699757,
+    "stop" : 1766872701322,
+    "duration" : 1565
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "steps.CheckoutSteps.initPages()",
     "time" : {
-      "start" : 1766872444144,
-      "stop" : 1766872444144,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "steps.LoginSteps.initPages()",
-    "time" : {
-      "start" : 1766872444144,
-      "stop" : 1766872444144,
+      "start" : 1766872700088,
+      "stop" : 1766872700088,
       "duration" : 0
     },
     "status" : "passed",
@@ -43,9 +28,24 @@
   }, {
     "name" : "steps.Hooks.setup()",
     "time" : {
-      "start" : 1766872443821,
-      "stop" : 1766872444143,
-      "duration" : 322
+      "start" : 1766872699757,
+      "stop" : 1766872700086,
+      "duration" : 329
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.LoginSteps.initPages()",
+    "time" : {
+      "start" : 1766872700087,
+      "stop" : 1766872700087,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,16 +61,16 @@
     "steps" : [ {
       "name" : "Dado que estou na página de login do SauceDemo",
       "time" : {
-        "start" : 1766872444145,
-        "stop" : 1766872444590,
-        "duration" : 445
+        "start" : 1766872700088,
+        "stop" : 1766872700519,
+        "duration" : 431
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navegando para o site SauceDemo",
         "time" : {
-          "start" : 1766872444145,
-          "stop" : 1766872444145,
+          "start" : 1766872700088,
+          "stop" : 1766872700088,
           "duration" : 0
         },
         "status" : "passed",
@@ -83,9 +83,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "45991d24bbe68039",
+        "uid" : "b9ffda82864ff9fe",
         "name" : "Evidencia",
-        "source" : "45991d24bbe68039.png",
+        "source" : "b9ffda82864ff9fe.png",
         "type" : "image/png",
         "size" : 24545
       } ],
@@ -97,16 +97,16 @@
     }, {
       "name" : "Quando tento logar com o usuário \"locked_out_user\" e senha \"secret_sauce\"",
       "time" : {
-        "start" : 1766872444590,
-        "stop" : 1766872445193,
+        "start" : 1766872700519,
+        "stop" : 1766872701122,
         "duration" : 603
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Realizando login com o usuário: locked_out_user",
         "time" : {
-          "start" : 1766872444590,
-          "stop" : 1766872444590,
+          "start" : 1766872700519,
+          "stop" : 1766872700519,
           "duration" : 0
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "68c4a28c345dccbd",
+        "uid" : "8a61a9b4ec1b24ee",
         "name" : "Evidencia",
-        "source" : "68c4a28c345dccbd.png",
+        "source" : "8a61a9b4ec1b24ee.png",
         "type" : "image/png",
         "size" : 23924
       } ],
@@ -133,16 +133,16 @@
     }, {
       "name" : "Então devo validar o resultado esperado \"Epic sadface: Sorry, this user has been locked out.\"",
       "time" : {
-        "start" : 1766872445194,
-        "stop" : 1766872445274,
-        "duration" : 80
+        "start" : 1766872701122,
+        "stop" : 1766872701204,
+        "duration" : 82
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Validando se a mensagem de erro contém: Epic sadface: Sorry, this user has been locked out.",
         "time" : {
-          "start" : 1766872445194,
-          "stop" : 1766872445194,
+          "start" : 1766872701123,
+          "stop" : 1766872701123,
           "duration" : 0
         },
         "status" : "passed",
@@ -155,9 +155,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "b4e6952c14cd5888",
+        "uid" : "c9ab40125a9c4990",
         "name" : "Evidencia",
-        "source" : "b4e6952c14cd5888.png",
+        "source" : "c9ab40125a9c4990.png",
         "type" : "image/png",
         "size" : 30529
       } ],
@@ -177,16 +177,16 @@
   "afterStages" : [ {
     "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1766872445274,
-      "stop" : 1766872445390,
-      "duration" : 116
+      "start" : 1766872701204,
+      "stop" : 1766872701321,
+      "duration" : 117
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7587e2647217748c",
+      "uid" : "b0b8817908852c99",
       "name" : "Evidencia_Validar Login e Navegação",
-      "source" : "7587e2647217748c.png",
+      "source" : "b0b8817908852c99.png",
       "type" : "image/png",
       "size" : 30529
     } ],
@@ -204,7 +204,7 @@
     "value" : "runnervmh13bl"
   }, {
     "name" : "thread",
-    "value" : "5636@runnervmh13bl.main(1)"
+    "value" : "5583@runnervmh13bl.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validar ecommerce SauceDemo"
@@ -250,8 +250,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b9520d7980f92ad9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872443821,
+          "stop" : 1766872445391,
+          "duration" : 1570
+        }
+      } ]
+    },
     "tags" : [ "login" ]
   },
-  "source" : "b9520d7980f92ad9.json",
+  "source" : "82c8bd0b3d9ed07d.json",
   "parameterValues" : [ "Epic sadface: Sorry, this user has been locked out.", "secret_sauce", "locked_out_user" ]
 }

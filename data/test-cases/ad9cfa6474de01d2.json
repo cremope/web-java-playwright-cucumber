@@ -1,21 +1,21 @@
 {
-  "uid" : "e397f128c2c1f5a9",
+  "uid" : "ad9cfa6474de01d2",
   "name" : "Validar erro no checkout - CEP ausente",
   "fullName" : "features/ecommerce_saucedemo.feature:27",
   "historyId" : "8a30c3593bb96d2326563ffab01df23f",
   "time" : {
-    "start" : 1766872451801,
-    "stop" : 1766872454783,
-    "duration" : 2982
+    "start" : 1766872707701,
+    "stop" : 1766872710678,
+    "duration" : 2977
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
-    "name" : "steps.CheckoutSteps.initPages()",
+    "name" : "steps.LoginSteps.initPages()",
     "time" : {
-      "start" : 1766872452126,
-      "stop" : 1766872452126,
-      "duration" : 0
+      "start" : 1766872708037,
+      "stop" : 1766872708038,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -28,9 +28,9 @@
   }, {
     "name" : "steps.Hooks.setup()",
     "time" : {
-      "start" : 1766872451801,
-      "stop" : 1766872452125,
-      "duration" : 324
+      "start" : 1766872707701,
+      "stop" : 1766872708037,
+      "duration" : 336
     },
     "status" : "passed",
     "steps" : [ ],
@@ -41,10 +41,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "steps.LoginSteps.initPages()",
+    "name" : "steps.CheckoutSteps.initPages()",
     "time" : {
-      "start" : 1766872452126,
-      "stop" : 1766872452126,
+      "start" : 1766872708038,
+      "stop" : 1766872708038,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,17 +61,17 @@
     "steps" : [ {
       "name" : "Dado que estou na página de login do SauceDemo",
       "time" : {
-        "start" : 1766872452126,
-        "stop" : 1766872452573,
-        "duration" : 447
+        "start" : 1766872708038,
+        "stop" : 1766872708471,
+        "duration" : 433
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navegando para o site SauceDemo",
         "time" : {
-          "start" : 1766872452126,
-          "stop" : 1766872452127,
-          "duration" : 1
+          "start" : 1766872708038,
+          "stop" : 1766872708038,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -83,9 +83,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "8945d596fca926c",
+        "uid" : "3a3a2e082b3cfd5b",
         "name" : "Evidencia",
-        "source" : "8945d596fca926c.png",
+        "source" : "3a3a2e082b3cfd5b.png",
         "type" : "image/png",
         "size" : 24545
       } ],
@@ -97,16 +97,16 @@
     }, {
       "name" : "Quando tento logar com o usuário \"standard_user\" e senha \"secret_sauce\"",
       "time" : {
-        "start" : 1766872452573,
-        "stop" : 1766872453185,
+        "start" : 1766872708471,
+        "stop" : 1766872709083,
         "duration" : 612
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Realizando login com o usuário: standard_user",
         "time" : {
-          "start" : 1766872452574,
-          "stop" : 1766872452574,
+          "start" : 1766872708471,
+          "stop" : 1766872708471,
           "duration" : 0
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "ec5fa9521774445e",
+        "uid" : "aba283b34ff2c60d",
         "name" : "Evidencia",
-        "source" : "ec5fa9521774445e.png",
+        "source" : "aba283b34ff2c60d.png",
         "type" : "image/png",
         "size" : 23700
       } ],
@@ -133,16 +133,16 @@
     }, {
       "name" : "E adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
       "time" : {
-        "start" : 1766872453185,
-        "stop" : 1766872453485,
-        "duration" : 300
+        "start" : 1766872709083,
+        "stop" : 1766872709381,
+        "duration" : 298
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Adicionando o produto ao carrinho: Sauce Labs Backpack",
         "time" : {
-          "start" : 1766872453185,
-          "stop" : 1766872453185,
+          "start" : 1766872709083,
+          "stop" : 1766872709083,
           "duration" : 0
         },
         "status" : "passed",
@@ -155,9 +155,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "a47a1fd69705b25c",
+        "uid" : "e2a7889ea7dd67a5",
         "name" : "Evidencia",
-        "source" : "a47a1fd69705b25c.png",
+        "source" : "e2a7889ea7dd67a5.png",
         "type" : "image/png",
         "size" : 282226
       } ],
@@ -169,16 +169,16 @@
     }, {
       "name" : "E prossigo para o checkout preenchendo \"Joao\", \"Silva\" e \"\"",
       "time" : {
-        "start" : 1766872453486,
-        "stop" : 1766872454571,
-        "duration" : 1085
+        "start" : 1766872709381,
+        "stop" : 1766872710468,
+        "duration" : 1087
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Iniciando checkout para: Joao Silva e CEP: ",
         "time" : {
-          "start" : 1766872453486,
-          "stop" : 1766872453486,
+          "start" : 1766872709381,
+          "stop" : 1766872709381,
           "duration" : 0
         },
         "status" : "passed",
@@ -191,9 +191,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "cd10aa5173eaec20",
+        "uid" : "8715e09c3a0e0b5",
         "name" : "Evidencia",
-        "source" : "cd10aa5173eaec20.png",
+        "source" : "8715e09c3a0e0b5.png",
         "type" : "image/png",
         "size" : 28256
       } ],
@@ -205,16 +205,16 @@
     }, {
       "name" : "Então devo ver o erro de checkout \"Error: Postal Code is required\"",
       "time" : {
-        "start" : 1766872454571,
-        "stop" : 1766872454662,
-        "duration" : 91
+        "start" : 1766872710468,
+        "stop" : 1766872710560,
+        "duration" : 92
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Validando erro checkout: Error: Postal Code is required",
         "time" : {
-          "start" : 1766872454572,
-          "stop" : 1766872454572,
+          "start" : 1766872710468,
+          "stop" : 1766872710468,
           "duration" : 0
         },
         "status" : "passed",
@@ -227,9 +227,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "b50562f7b2464447",
+        "uid" : "533ae147267140d8",
         "name" : "Evidencia",
-        "source" : "b50562f7b2464447.png",
+        "source" : "533ae147267140d8.png",
         "type" : "image/png",
         "size" : 33518
       } ],
@@ -249,16 +249,16 @@
   "afterStages" : [ {
     "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1766872454662,
-      "stop" : 1766872454783,
-      "duration" : 121
+      "start" : 1766872710560,
+      "stop" : 1766872710678,
+      "duration" : 118
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "77691c7d468da2bc",
+      "uid" : "5ca86139cdef2747",
       "name" : "Evidencia_Validar erro no checkout - CEP ausente",
-      "source" : "77691c7d468da2bc.png",
+      "source" : "5ca86139cdef2747.png",
       "type" : "image/png",
       "size" : 33518
     } ],
@@ -276,7 +276,7 @@
     "value" : "runnervmh13bl"
   }, {
     "name" : "thread",
-    "value" : "5636@runnervmh13bl.main(1)"
+    "value" : "5583@runnervmh13bl.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validar ecommerce SauceDemo"
@@ -313,8 +313,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e397f128c2c1f5a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872451801,
+          "stop" : 1766872454783,
+          "duration" : 2982
+        }
+      } ]
+    },
     "tags" : [ "checkout_negativo" ]
   },
-  "source" : "e397f128c2c1f5a9.json",
+  "source" : "ad9cfa6474de01d2.json",
   "parameterValues" : [ ]
 }

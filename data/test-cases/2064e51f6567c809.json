@@ -1,36 +1,21 @@
 {
-  "uid" : "36e48c8561ec0c79",
+  "uid" : "2064e51f6567c809",
   "name" : "Validar Login e Navegação",
   "fullName" : "features/ecommerce_saucedemo.feature:16",
   "historyId" : "15becf4ced762de917b839bf88114a31",
   "time" : {
-    "start" : 1766872445398,
-    "stop" : 1766872446963,
-    "duration" : 1565
+    "start" : 1766872701330,
+    "stop" : 1766872702857,
+    "duration" : 1527
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "steps.Hooks.setup()",
     "time" : {
-      "start" : 1766872445398,
-      "stop" : 1766872445721,
-      "duration" : 323
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "steps.LoginSteps.initPages()",
-    "time" : {
-      "start" : 1766872445722,
-      "stop" : 1766872445722,
-      "duration" : 0
+      "start" : 1766872701330,
+      "stop" : 1766872701655,
+      "duration" : 325
     },
     "status" : "passed",
     "steps" : [ ],
@@ -43,8 +28,23 @@
   }, {
     "name" : "steps.CheckoutSteps.initPages()",
     "time" : {
-      "start" : 1766872445722,
-      "stop" : 1766872445722,
+      "start" : 1766872701656,
+      "stop" : 1766872701656,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.LoginSteps.initPages()",
+    "time" : {
+      "start" : 1766872701656,
+      "stop" : 1766872701656,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,16 +61,16 @@
     "steps" : [ {
       "name" : "Dado que estou na página de login do SauceDemo",
       "time" : {
-        "start" : 1766872445723,
-        "stop" : 1766872446173,
-        "duration" : 450
+        "start" : 1766872701657,
+        "stop" : 1766872702087,
+        "duration" : 430
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navegando para o site SauceDemo",
         "time" : {
-          "start" : 1766872445723,
-          "stop" : 1766872445723,
+          "start" : 1766872701657,
+          "stop" : 1766872701657,
           "duration" : 0
         },
         "status" : "passed",
@@ -83,9 +83,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "c753886776b46452",
+        "uid" : "3c190fcb0fb2fae2",
         "name" : "Evidencia",
-        "source" : "c753886776b46452.png",
+        "source" : "3c190fcb0fb2fae2.png",
         "type" : "image/png",
         "size" : 24545
       } ],
@@ -97,16 +97,16 @@
     }, {
       "name" : "Quando tento logar com o usuário \"standard_user\" e senha \"senha_errada\"",
       "time" : {
-        "start" : 1766872446173,
-        "stop" : 1766872446759,
-        "duration" : 586
+        "start" : 1766872702087,
+        "stop" : 1766872702676,
+        "duration" : 589
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Realizando login com o usuário: standard_user",
         "time" : {
-          "start" : 1766872446173,
-          "stop" : 1766872446173,
+          "start" : 1766872702087,
+          "stop" : 1766872702087,
           "duration" : 0
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "36d4a71cc9470ef7",
+        "uid" : "a44da89250f84457",
         "name" : "Evidencia",
-        "source" : "36d4a71cc9470ef7.png",
+        "source" : "a44da89250f84457.png",
         "type" : "image/png",
         "size" : 23700
       } ],
@@ -133,16 +133,16 @@
     }, {
       "name" : "Então devo validar o resultado esperado \"Epic sadface: Username and password do not match\"",
       "time" : {
-        "start" : 1766872446759,
-        "stop" : 1766872446840,
-        "duration" : 81
+        "start" : 1766872702676,
+        "stop" : 1766872702753,
+        "duration" : 77
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Validando se a mensagem de erro contém: Epic sadface: Username and password do not match",
         "time" : {
-          "start" : 1766872446759,
-          "stop" : 1766872446759,
+          "start" : 1766872702676,
+          "stop" : 1766872702676,
           "duration" : 0
         },
         "status" : "passed",
@@ -155,9 +155,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "d09eb5071b11cbe8",
+        "uid" : "fd884c6f06653759",
         "name" : "Evidencia",
-        "source" : "d09eb5071b11cbe8.png",
+        "source" : "fd884c6f06653759.png",
         "type" : "image/png",
         "size" : 31978
       } ],
@@ -177,16 +177,16 @@
   "afterStages" : [ {
     "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1766872446840,
-      "stop" : 1766872446962,
-      "duration" : 122
+      "start" : 1766872702753,
+      "stop" : 1766872702856,
+      "duration" : 103
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a7e633b87636c11c",
+      "uid" : "44fbc6384e7c64b8",
       "name" : "Evidencia_Validar Login e Navegação",
-      "source" : "a7e633b87636c11c.png",
+      "source" : "44fbc6384e7c64b8.png",
       "type" : "image/png",
       "size" : 31978
     } ],
@@ -204,7 +204,7 @@
     "value" : "runnervmh13bl"
   }, {
     "name" : "thread",
-    "value" : "5636@runnervmh13bl.main(1)"
+    "value" : "5583@runnervmh13bl.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validar ecommerce SauceDemo"
@@ -250,8 +250,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "36e48c8561ec0c79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872445398,
+          "stop" : 1766872446963,
+          "duration" : 1565
+        }
+      } ]
+    },
     "tags" : [ "login" ]
   },
-  "source" : "36e48c8561ec0c79.json",
+  "source" : "2064e51f6567c809.json",
   "parameterValues" : [ "Epic sadface: Username and password do not match", "senha_errada", "standard_user" ]
 }

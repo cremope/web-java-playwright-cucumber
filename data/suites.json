@@ -5,73 +5,73 @@
     "name" : "Validar ecommerce SauceDemo",
     "children" : [ {
       "name" : "Validar Login e Navegação",
-      "uid" : "39c6b49cc99a6e84",
+      "uid" : "b092702b473af2be",
       "parentUid" : "fe679245f982fb3523ad916b274dd979",
       "status" : "passed",
       "time" : {
-        "start" : 1766872440572,
-        "stop" : 1766872443802,
-        "duration" : 3230
+        "start" : 1766872696293,
+        "stop" : 1766872699740,
+        "duration" : 3447
       },
       "flaky" : false,
       "parameters" : [ "LOGIN_SUCESSO", "secret_sauce", "standard_user" ]
     }, {
       "name" : "Validar Login e Navegação",
-      "uid" : "b9520d7980f92ad9",
+      "uid" : "82c8bd0b3d9ed07d",
       "parentUid" : "fe679245f982fb3523ad916b274dd979",
       "status" : "passed",
       "time" : {
-        "start" : 1766872443821,
-        "stop" : 1766872445391,
-        "duration" : 1570
+        "start" : 1766872699757,
+        "stop" : 1766872701322,
+        "duration" : 1565
       },
       "flaky" : false,
       "parameters" : [ "Epic sadface: Sorry, this user has been locked out.", "secret_sauce", "locked_out_user" ]
     }, {
       "name" : "Validar Login e Navegação",
-      "uid" : "36e48c8561ec0c79",
+      "uid" : "2064e51f6567c809",
       "parentUid" : "fe679245f982fb3523ad916b274dd979",
       "status" : "passed",
       "time" : {
-        "start" : 1766872445398,
-        "stop" : 1766872446963,
-        "duration" : 1565
+        "start" : 1766872701330,
+        "stop" : 1766872702857,
+        "duration" : 1527
       },
       "flaky" : false,
       "parameters" : [ "Epic sadface: Username and password do not match", "senha_errada", "standard_user" ]
     }, {
       "name" : "Validar Login e Navegação",
-      "uid" : "ebbc9f82225e3412",
+      "uid" : "42fed873e6b4a075",
       "parentUid" : "fe679245f982fb3523ad916b274dd979",
       "status" : "passed",
       "time" : {
-        "start" : 1766872446971,
-        "stop" : 1766872448510,
-        "duration" : 1539
+        "start" : 1766872702864,
+        "stop" : 1766872704388,
+        "duration" : 1524
       },
       "flaky" : false,
       "parameters" : [ "Epic sadface: Username is required", "", "" ]
     }, {
       "name" : "Fluxo de Checkout Completo",
-      "uid" : "6e186f24ab4ccdbf",
+      "uid" : "15ee7750657a0e03",
       "parentUid" : "fe679245f982fb3523ad916b274dd979",
       "status" : "passed",
       "time" : {
-        "start" : 1766872448516,
-        "stop" : 1766872451794,
-        "duration" : 3278
+        "start" : 1766872704393,
+        "stop" : 1766872707694,
+        "duration" : 3301
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Validar erro no checkout - CEP ausente",
-      "uid" : "e397f128c2c1f5a9",
+      "uid" : "ad9cfa6474de01d2",
       "parentUid" : "fe679245f982fb3523ad916b274dd979",
       "status" : "passed",
       "time" : {
-        "start" : 1766872451801,
-        "stop" : 1766872454783,
-        "duration" : 2982
+        "start" : 1766872707701,
+        "stop" : 1766872710678,
+        "duration" : 2977
       },
       "flaky" : false,
       "parameters" : [ ]
