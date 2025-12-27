@@ -1,0 +1,257 @@
+{
+  "uid" : "b9520d7980f92ad9",
+  "name" : "Validar Login e Navegação",
+  "fullName" : "features/ecommerce_saucedemo.feature:15",
+  "historyId" : "17c5e6fc6cb13f8641a50cc0b050e1fa",
+  "time" : {
+    "start" : 1766872443821,
+    "stop" : 1766872445391,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "steps.CheckoutSteps.initPages()",
+    "time" : {
+      "start" : 1766872444144,
+      "stop" : 1766872444144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.LoginSteps.initPages()",
+    "time" : {
+      "start" : 1766872444144,
+      "stop" : 1766872444144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.Hooks.setup()",
+    "time" : {
+      "start" : 1766872443821,
+      "stop" : 1766872444143,
+      "duration" : 322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado que estou na página de login do SauceDemo",
+      "time" : {
+        "start" : 1766872444145,
+        "stop" : 1766872444590,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navegando para o site SauceDemo",
+        "time" : {
+          "start" : 1766872444145,
+          "stop" : 1766872444145,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "45991d24bbe68039",
+        "name" : "Evidencia",
+        "source" : "45991d24bbe68039.png",
+        "type" : "image/png",
+        "size" : 24545
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Quando tento logar com o usuário \"locked_out_user\" e senha \"secret_sauce\"",
+      "time" : {
+        "start" : 1766872444590,
+        "stop" : 1766872445193,
+        "duration" : 603
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Realizando login com o usuário: locked_out_user",
+        "time" : {
+          "start" : 1766872444590,
+          "stop" : 1766872444590,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "68c4a28c345dccbd",
+        "name" : "Evidencia",
+        "source" : "68c4a28c345dccbd.png",
+        "type" : "image/png",
+        "size" : 23924
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então devo validar o resultado esperado \"Epic sadface: Sorry, this user has been locked out.\"",
+      "time" : {
+        "start" : 1766872445194,
+        "stop" : 1766872445274,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Validando se a mensagem de erro contém: Epic sadface: Sorry, this user has been locked out.",
+        "time" : {
+          "start" : 1766872445194,
+          "stop" : 1766872445194,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b4e6952c14cd5888",
+        "name" : "Evidencia",
+        "source" : "b4e6952c14cd5888.png",
+        "type" : "image/png",
+        "size" : 30529
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1766872445274,
+      "stop" : 1766872445390,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7587e2647217748c",
+      "name" : "Evidencia_Validar Login e Navegação",
+      "source" : "7587e2647217748c.png",
+      "type" : "image/png",
+      "size" : 30529
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "host",
+    "value" : "runnervmh13bl"
+  }, {
+    "name" : "thread",
+    "value" : "5636@runnervmh13bl.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validar ecommerce SauceDemo"
+  }, {
+    "name" : "story",
+    "value" : "Validar Login e Navegação"
+  }, {
+    "name" : "suite",
+    "value" : "Validar ecommerce SauceDemo"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar Login e Navegação"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/ecommerce_saucedemo.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.ecommerce_saucedemo_feature.Validar ecommerce SauceDemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "resultado",
+    "value" : "Epic sadface: Sorry, this user has been locked out."
+  }, {
+    "name" : "senha",
+    "value" : "secret_sauce"
+  }, {
+    "name" : "usuario",
+    "value" : "locked_out_user"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "b9520d7980f92ad9.json",
+  "parameterValues" : [ "Epic sadface: Sorry, this user has been locked out.", "secret_sauce", "locked_out_user" ]
+}

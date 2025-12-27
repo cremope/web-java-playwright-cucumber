@@ -1,0 +1,257 @@
+{
+  "uid" : "39c6b49cc99a6e84",
+  "name" : "Validar Login e Navegação",
+  "fullName" : "features/ecommerce_saucedemo.feature:14",
+  "historyId" : "800b75cdb32ddba379d6ff2287b1f282",
+  "time" : {
+    "start" : 1766872440572,
+    "stop" : 1766872443802,
+    "duration" : 3230
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "steps.LoginSteps.initPages()",
+    "time" : {
+      "start" : 1766872442159,
+      "stop" : 1766872442159,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.CheckoutSteps.initPages()",
+    "time" : {
+      "start" : 1766872442161,
+      "stop" : 1766872442161,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.Hooks.setup()",
+    "time" : {
+      "start" : 1766872440575,
+      "stop" : 1766872442074,
+      "duration" : 1499
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado que estou na página de login do SauceDemo",
+      "time" : {
+        "start" : 1766872442162,
+        "stop" : 1766872442862,
+        "duration" : 700
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navegando para o site SauceDemo",
+        "time" : {
+          "start" : 1766872442162,
+          "stop" : 1766872442162,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "4d9f38b644bd3c4d",
+        "name" : "Evidencia",
+        "source" : "4d9f38b644bd3c4d.png",
+        "type" : "image/png",
+        "size" : 24545
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Quando tento logar com o usuário \"standard_user\" e senha \"secret_sauce\"",
+      "time" : {
+        "start" : 1766872442862,
+        "stop" : 1766872443485,
+        "duration" : 623
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Realizando login com o usuário: standard_user",
+        "time" : {
+          "start" : 1766872442862,
+          "stop" : 1766872442862,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "6509808104ff25cc",
+        "name" : "Evidencia",
+        "source" : "6509808104ff25cc.png",
+        "type" : "image/png",
+        "size" : 23700
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então devo validar o resultado esperado \"LOGIN_SUCESSO\"",
+      "time" : {
+        "start" : 1766872443485,
+        "stop" : 1766872443629,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Validando se a vitrine de produtos está visível",
+        "time" : {
+          "start" : 1766872443485,
+          "stop" : 1766872443485,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "683654c6853c1ad5",
+        "name" : "Evidencia",
+        "source" : "683654c6853c1ad5.png",
+        "type" : "image/png",
+        "size" : 280267
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1766872443629,
+      "stop" : 1766872443799,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c16a994a8c5a493c",
+      "name" : "Evidencia_Validar Login e Navegação",
+      "source" : "c16a994a8c5a493c.png",
+      "type" : "image/png",
+      "size" : 280267
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "host",
+    "value" : "runnervmh13bl"
+  }, {
+    "name" : "thread",
+    "value" : "5636@runnervmh13bl.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validar ecommerce SauceDemo"
+  }, {
+    "name" : "story",
+    "value" : "Validar Login e Navegação"
+  }, {
+    "name" : "suite",
+    "value" : "Validar ecommerce SauceDemo"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar Login e Navegação"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/ecommerce_saucedemo.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.ecommerce_saucedemo_feature.Validar ecommerce SauceDemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "resultado",
+    "value" : "LOGIN_SUCESSO"
+  }, {
+    "name" : "senha",
+    "value" : "secret_sauce"
+  }, {
+    "name" : "usuario",
+    "value" : "standard_user"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "39c6b49cc99a6e84.json",
+  "parameterValues" : [ "LOGIN_SUCESSO", "secret_sauce", "standard_user" ]
+}

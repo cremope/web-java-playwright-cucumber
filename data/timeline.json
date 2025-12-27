@@ -1,5 +1,85 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "runnervmh13bl",
+    "children" : [ {
+      "name" : "5636@runnervmh13bl.main(1)",
+      "children" : [ {
+        "name" : "Validar Login e Navegação",
+        "uid" : "ebbc9f82225e3412",
+        "parentUid" : "6727ed5623daa28047fc6410100d9f4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872446971,
+          "stop" : 1766872448510,
+          "duration" : 1539
+        },
+        "flaky" : false,
+        "parameters" : [ "Epic sadface: Username is required", "", "" ]
+      }, {
+        "name" : "Validar Login e Navegação",
+        "uid" : "36e48c8561ec0c79",
+        "parentUid" : "6727ed5623daa28047fc6410100d9f4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872445398,
+          "stop" : 1766872446963,
+          "duration" : 1565
+        },
+        "flaky" : false,
+        "parameters" : [ "Epic sadface: Username and password do not match", "senha_errada", "standard_user" ]
+      }, {
+        "name" : "Validar erro no checkout - CEP ausente",
+        "uid" : "e397f128c2c1f5a9",
+        "parentUid" : "6727ed5623daa28047fc6410100d9f4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872451801,
+          "stop" : 1766872454783,
+          "duration" : 2982
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validar Login e Navegação",
+        "uid" : "b9520d7980f92ad9",
+        "parentUid" : "6727ed5623daa28047fc6410100d9f4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872443821,
+          "stop" : 1766872445391,
+          "duration" : 1570
+        },
+        "flaky" : false,
+        "parameters" : [ "Epic sadface: Sorry, this user has been locked out.", "secret_sauce", "locked_out_user" ]
+      }, {
+        "name" : "Validar Login e Navegação",
+        "uid" : "39c6b49cc99a6e84",
+        "parentUid" : "6727ed5623daa28047fc6410100d9f4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872440572,
+          "stop" : 1766872443802,
+          "duration" : 3230
+        },
+        "flaky" : false,
+        "parameters" : [ "LOGIN_SUCESSO", "secret_sauce", "standard_user" ]
+      }, {
+        "name" : "Fluxo de Checkout Completo",
+        "uid" : "6e186f24ab4ccdbf",
+        "parentUid" : "6727ed5623daa28047fc6410100d9f4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1766872448516,
+          "stop" : 1766872451794,
+          "duration" : 3278
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6727ed5623daa28047fc6410100d9f4f"
+    } ],
+    "uid" : "ea2892d3dd212499d59fe7eaa57d5ec0"
+  } ]
 }

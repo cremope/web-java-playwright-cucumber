@@ -1,0 +1,320 @@
+{
+  "uid" : "e397f128c2c1f5a9",
+  "name" : "Validar erro no checkout - CEP ausente",
+  "fullName" : "features/ecommerce_saucedemo.feature:27",
+  "historyId" : "8a30c3593bb96d2326563ffab01df23f",
+  "time" : {
+    "start" : 1766872451801,
+    "stop" : 1766872454783,
+    "duration" : 2982
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "steps.CheckoutSteps.initPages()",
+    "time" : {
+      "start" : 1766872452126,
+      "stop" : 1766872452126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.Hooks.setup()",
+    "time" : {
+      "start" : 1766872451801,
+      "stop" : 1766872452125,
+      "duration" : 324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.LoginSteps.initPages()",
+    "time" : {
+      "start" : 1766872452126,
+      "stop" : 1766872452126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado que estou na página de login do SauceDemo",
+      "time" : {
+        "start" : 1766872452126,
+        "stop" : 1766872452573,
+        "duration" : 447
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navegando para o site SauceDemo",
+        "time" : {
+          "start" : 1766872452126,
+          "stop" : 1766872452127,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "8945d596fca926c",
+        "name" : "Evidencia",
+        "source" : "8945d596fca926c.png",
+        "type" : "image/png",
+        "size" : 24545
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Quando tento logar com o usuário \"standard_user\" e senha \"secret_sauce\"",
+      "time" : {
+        "start" : 1766872452573,
+        "stop" : 1766872453185,
+        "duration" : 612
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Realizando login com o usuário: standard_user",
+        "time" : {
+          "start" : 1766872452574,
+          "stop" : 1766872452574,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "ec5fa9521774445e",
+        "name" : "Evidencia",
+        "source" : "ec5fa9521774445e.png",
+        "type" : "image/png",
+        "size" : 23700
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "E adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
+      "time" : {
+        "start" : 1766872453185,
+        "stop" : 1766872453485,
+        "duration" : 300
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Adicionando o produto ao carrinho: Sauce Labs Backpack",
+        "time" : {
+          "start" : 1766872453185,
+          "stop" : 1766872453185,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "a47a1fd69705b25c",
+        "name" : "Evidencia",
+        "source" : "a47a1fd69705b25c.png",
+        "type" : "image/png",
+        "size" : 282226
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "E prossigo para o checkout preenchendo \"Joao\", \"Silva\" e \"\"",
+      "time" : {
+        "start" : 1766872453486,
+        "stop" : 1766872454571,
+        "duration" : 1085
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Iniciando checkout para: Joao Silva e CEP: ",
+        "time" : {
+          "start" : 1766872453486,
+          "stop" : 1766872453486,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "cd10aa5173eaec20",
+        "name" : "Evidencia",
+        "source" : "cd10aa5173eaec20.png",
+        "type" : "image/png",
+        "size" : 28256
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então devo ver o erro de checkout \"Error: Postal Code is required\"",
+      "time" : {
+        "start" : 1766872454571,
+        "stop" : 1766872454662,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Validando erro checkout: Error: Postal Code is required",
+        "time" : {
+          "start" : 1766872454572,
+          "stop" : 1766872454572,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b50562f7b2464447",
+        "name" : "Evidencia",
+        "source" : "b50562f7b2464447.png",
+        "type" : "image/png",
+        "size" : 33518
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.teardown(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1766872454662,
+      "stop" : 1766872454783,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "77691c7d468da2bc",
+      "name" : "Evidencia_Validar erro no checkout - CEP ausente",
+      "source" : "77691c7d468da2bc.png",
+      "type" : "image/png",
+      "size" : 33518
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "checkout_negativo"
+  }, {
+    "name" : "host",
+    "value" : "runnervmh13bl"
+  }, {
+    "name" : "thread",
+    "value" : "5636@runnervmh13bl.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validar ecommerce SauceDemo"
+  }, {
+    "name" : "story",
+    "value" : "Validar erro no checkout - CEP ausente"
+  }, {
+    "name" : "suite",
+    "value" : "Validar ecommerce SauceDemo"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar erro no checkout - CEP ausente"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/ecommerce_saucedemo.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.ecommerce_saucedemo_feature.Validar ecommerce SauceDemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "checkout_negativo" ]
+  },
+  "source" : "e397f128c2c1f5a9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Validar ecommerce SauceDemo","Validar Login e Navegação","0","0","4","0","0"
+"","Validar ecommerce SauceDemo","Validar erro no checkout - CEP ausente","0","0","1","0","0"
+"","Validar ecommerce SauceDemo","Fluxo de Checkout Completo","0","0","1","0","0"

@@ -1,1 +1,61 @@
-[ ]
+[ {
+  "uid" : "39c6b49cc99a6e84",
+  "name" : "Validar Login e Navegação",
+  "time" : {
+    "start" : 1766872440572,
+    "stop" : 1766872443802,
+    "duration" : 3230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9520d7980f92ad9",
+  "name" : "Validar Login e Navegação",
+  "time" : {
+    "start" : 1766872443821,
+    "stop" : 1766872445391,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e186f24ab4ccdbf",
+  "name" : "Fluxo de Checkout Completo",
+  "time" : {
+    "start" : 1766872448516,
+    "stop" : 1766872451794,
+    "duration" : 3278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36e48c8561ec0c79",
+  "name" : "Validar Login e Navegação",
+  "time" : {
+    "start" : 1766872445398,
+    "stop" : 1766872446963,
+    "duration" : 1565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e397f128c2c1f5a9",
+  "name" : "Validar erro no checkout - CEP ausente",
+  "time" : {
+    "start" : 1766872451801,
+    "stop" : 1766872454783,
+    "duration" : 2982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebbc9f82225e3412",
+  "name" : "Validar Login e Navegação",
+  "time" : {
+    "start" : 1766872446971,
+    "stop" : 1766872448510,
+    "duration" : 1539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
